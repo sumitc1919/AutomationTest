@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="19" name="Failed suite [Parallel Tests]" parallel="tests">
+  <test thread-count="19" name="Linux+chrome Test1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Linux"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Linux+chrome Test1(failed) -->
+  <test thread-count="19" name="Windows+chrome Test1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test1(failed) -->
+  <test thread-count="19" name="Mac+chrome Test1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+chrome Test1(failed) -->
+  <test thread-count="19" name="Windows+chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test(failed) -->
+  <test thread-count="19" name="Linux+chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Linux"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Linux+chrome Test(failed) -->
+  <test thread-count="19" name="Mac+Safari Test(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+Safari Test(failed) -->
+  <test thread-count="19" name="Mac+chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+chrome Test(failed) -->
+  <test thread-count="19" name="Windows+chrome Test101(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test101(failed) -->
+  <test thread-count="19" name="Windows+chrome Test100(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test100(failed) -->
+  <test thread-count="19" name="Windows+chrome Test102(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test102(failed) -->
+  <test thread-count="19" name="Windows+chrome Test103(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test103(failed) -->
+  <test thread-count="19" name="Mac+ie Test1(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+ie Test1(failed) -->
+  <test thread-count="19" name="Linux+ie Test(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Linux"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Linux+ie Test(failed) -->
+  <test thread-count="19" name="Windows+chrome Test104(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="9.0.1"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+chrome Test104(failed) -->
+  <test thread-count="19" name="Linux+ie Test1(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Linux"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Linux+ie Test1(failed) -->
+  <test thread-count="19" name="Windows+ie Test1(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test1(failed) -->
+  <test thread-count="19" name="Windows+ie Test100(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test100(failed) -->
+  <test thread-count="19" name="Windows+ie Test(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test(failed) -->
+  <test thread-count="19" name="Windows+ie Test102(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test102(failed) -->
+  <test thread-count="19" name="Mac+ie Test(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+ie Test(failed) -->
+  <test thread-count="19" name="Windows+ie Test103(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test103(failed) -->
+  <test thread-count="19" name="Windows+ie Test104(failed)" parallel="tests">
+    <parameter name="browser" value="Internet Explorer"/>
+    <parameter name="version" value=""/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+ie Test104(failed) -->
+  <test thread-count="19" name="Windows+firefox Test101(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test101(failed) -->
+  <test thread-count="19" name="Windows+firefox Test102(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test102(failed) -->
+  <test thread-count="19" name="Windows+firefox Test1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test1(failed) -->
+  <test thread-count="19" name="Windows+firefox Test104(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test104(failed) -->
+  <test thread-count="19" name="Linux+firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Linux"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Linux+firefox Test(failed) -->
+  <test thread-count="19" name="Windows+firefox Test100(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test100(failed) -->
+  <test thread-count="19" name="Mac+firefox Test1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Mac"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Mac+firefox Test1(failed) -->
+  <test thread-count="19" name="Windows+firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="version" value="31.7.0"/>
+    <parameter name="platform" value="Windows"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="scripts.grid.TheInternetHeroKupp">
+        <methods>
+          <include name="setup"/>
+          <include name="afterTest"/>
+          <include name="testInternetHeroKuapp"/>
+        </methods>
+      </class> <!-- scripts.grid.TheInternetHeroKupp -->
+    </classes>
+  </test> <!-- Windows+firefox Test(failed) -->
+</suite> <!-- Failed suite [Parallel Tests] -->
